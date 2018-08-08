@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* End licensing */
+/* End reset */
 
 .title-bar {
   display: flex;
@@ -72,4 +72,22 @@ table {
 
 .title-bar-tagline {
   background-color: yellow;
+}
+
+.nav-bar {
+  width:100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar-container {
+  background-color: green;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+
 }
